@@ -1,0 +1,19 @@
+# Git Aliases
+
+## st - Shorthand list of un/staged files
+git config --global alias.st "status -s"
+
+## br - Branch
+git config --global alias.br "branch"
+
+## co - Checkout
+git config --global alias.co "checkout"
+
+## ci - Commit added files with a message
+git config --global alias.ci "commit -m"
+
+## cia - Add all files and commit with a message
+git config --global alias.cia "commit -am"
+
+## pr - Pull Rebase
+git config --global alias.pr "pull --rebase"
