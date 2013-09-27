@@ -1,0 +1,59 @@
+{
+    "highlight_modified_tabs": true,
+
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "draw_indent_guides": true,
+    "draw_white_space": "selection",
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+
+    "font_size": 10.0,
+
+    "bold_folder_labels": true,
+
+    "caret_style": "phase",
+
+    "close_windows_when_empty": true,
+
+    "file_exclude_patterns":
+    [
+    ".DS_Store",
+    "*.lib",
+    "*.log"
+    ],
+    "folder_exclude_patterns":
+    [
+    ".git",
+    ".bundle",
+    ".sass-cache",
+    ".svn",
+    ".hg"
+    ],
+    "ignored_packages":
+    [
+    "Vintage",
+    "SublimeLinter"
+    ],
+
+    "line_padding_bottom": 1,
+    "line_padding_top": 1,
+
+    "match_brackets": true,
+    "match_brackets_angle": true,
+    "match_brackets_braces": true,
+    "match_brackets_content": true,
+    "match_brackets_square": true,
+
+    "open_files_in_new_window": false,
+    "remember_open_files": true,
+    "remember_open_folders": true,
+
+    "scroll_past_end": true,
+    "scroll_speed": 2,
+
+    "show_full_path": true,
+    "use_simple_full_screen": true,
+    "wide_caret": true,
+    "word_wrap": true
+}
