@@ -55,5 +55,5 @@
     "show_full_path": true,
     "use_simple_full_screen": true,
     "wide_caret": true,
-    "word_wrap": true
+    "word_wrap": false
 }
