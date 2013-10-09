@@ -10,6 +10,7 @@ eval "$(rbenv init -)"
 
 ## Aliases
 alias gti='git'
+alias vmupdate='/root/update_VM.sh -h' # GlobalPersonals local VM only
 
 ## Set title on each tab
 ## @usage: tabname NAME
