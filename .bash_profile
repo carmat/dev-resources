@@ -10,7 +10,14 @@ eval "$(rbenv init -)"
 
 ## Aliases
 alias gti='git'
-alias vmupdate='/root/update_VM.sh -h' # GlobalPersonals local VM only
+## GlobalPersonals local VM only
+alias vmupdate='/root/update_VM.sh'
+## Additional choices are:
+##    -h (show this help menu)
+##    -a (will update all wld code, database and run puppet)
+##    -w (will update wld code to head of master)
+##    -d (will refarm DB from nightly dump on maxi)
+##    -p (will do a full puppet run, updating all ruby apps)
 
 ## Set title on each tab
 ## @usage: tabname NAME
