@@ -1,28 +1,22 @@
-# Save file as ".bash_profile" when using
-
 ## Show full path and current branch in bash
 parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
-export PS1="\u@\h \w\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
-export PATH="$HOME/.rbenv/bin:$PATH"
+
+export MYPS='$(echo -n "${PWD/#$HOME/~}" | awk -F "/" '"'"'{if (length($0) > 14) { if (NF>4) print $1 "/" $2 "/../" $(NF-1) "/" $NF; else if (NF>3) print $1 "/" $2 "/../" $NF; else print $1 "/../" $NF; } else print $0;}'"'"')'
+export PS1="$(eval "echo ${MYPS}")\[\033[37m\]\$(parse_git_branch)\[\033[00m\] $ "
+# export PS1="\u@\h \w\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
+export PATH="/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH"
+#export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 ## Create symlink for 'subl'
-export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH
+export PATH="/usr/local/bin:$PATH"
 export EDITOR='subl -w'
-#### ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
 ## Aliases
 alias gti='git'
-## GlobalPersonals local VM only
-alias vmupdate='/root/update_VM.sh'
-## Additional choices are:
-##    -h (show this help menu)
-##    -a (will update all wld code, database and run puppet)
-##    -w (will update wld code to head of master)
-##    -d (will refarm DB from nightly dump on maxi)
-##    -p (will do a full puppet run, updating all ruby apps)
+alias ~='cd ~/Sites/'
 
 ## Set title on each tab
 ## @usage: tabname NAME
