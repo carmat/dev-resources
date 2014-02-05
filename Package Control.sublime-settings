@@ -1,0 +1,13 @@
+{
+    "installed_packages":
+    [
+        "Alignment",
+        "AngularJS",
+        "BracketHighlighter",
+        "EditorConfig",
+        "GitGutter",
+        "INI",
+        "Nettuts+ Fetch",
+        "Syntax Highlighting for Sass"
+    ]
+}
