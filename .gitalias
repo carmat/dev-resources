@@ -10,10 +10,10 @@ git config --global alias.br "branch"
 git config --global alias.co "checkout"
 
 ## ci - Commit added files with a message
-git config --global alias.ci "commit -m"
+git config --global alias.ci "commit"
 
 ## cia - Add all files and commit with a message
-git config --global alias.cia "commit -am"
+git config --global alias.cia "commit -a"
 
 ## pr - Pull Rebase
 git config --global alias.pr "pull --rebase"
