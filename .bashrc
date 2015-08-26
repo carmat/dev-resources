@@ -29,6 +29,8 @@ alias glog='git log --color --graph --full-history --all --abbrev-commit --prett
 alias gs='open https://status.github.com/'
 alias htdocs='cd /Applications/XAMPP/xamppfiles/htdocs/'
 alias sites='cd ~/Sites/'
+## USAGE: $ compare branch1..branch2
+alias compare="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 
 ## Set title on each tab
 ## ====================================
