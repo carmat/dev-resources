@@ -1,13 +1,33 @@
 {
-    "installed_packages":
-    [
-        "Alignment",
-        "AngularJS",
-        "BracketHighlighter",
-        "EditorConfig",
-        "GitGutter",
-        "INI",
-        "Nettuts+ Fetch",
-        "Syntax Highlighting for Sass"
-    ]
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AngularJS",
+		"AutoFileName",
+		"BracketHighlighter",
+		"Can I Use",
+		"CFML",
+		"DashDoc",
+		"EditorConfig",
+		"Emmet",
+		"Emmet Css Snippets",
+		"Enhanced HTML and CFML",
+		"GitGutter",
+		"GitHub Flavored Markdown Preview",
+		"HTML-CSS-JS Prettify",
+		"INI",
+		"JSHint Gutter",
+		"Markdown Preview",
+		"Nettuts+ Fetch",
+		"Package Control",
+		"Pretty JSON",
+		"sublime-github",
+		"SublimeLinter",
+		"Syntax Highlighting for Sass",
+		"Theme - Soda"
+	]
 }

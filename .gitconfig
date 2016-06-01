@@ -1,0 +1,19 @@
+[push]
+	default = upstream
+[branch]
+	autosetuprebase = always
+[alias]
+	st = status -s
+	br = branch
+	co = checkout
+	ci = commit
+	cia = commit -a
+	fixup = commit -a --fixup
+	sq = rebase -i --autosquash
+	pr = pull --rebase
+[merge]
+	ff = false
+[core]
+	excludesfile = /Users/carmat/.gitignore
+[help]
+	autocorrect = 1
